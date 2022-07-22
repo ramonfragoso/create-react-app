@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import PokemonCard from './components/PokemonCard';
+import PokemonList from './components/PokemonList';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <div className="title">
+          Pokémon Search
+        </div>
+
+        <input className="input" placeholder='Pikachu, Bulbasaur...'/>
+        <PokemonList list={[1,2,3]}/>
+      </div>
+      <div className="divider"/>
+      <div className="container">
+        <div className="title">
+          My Pokémon List
+        </div>
+        <PokemonList list={[1,2,3]}/>
+      </div>
     </div>
   );
 }
