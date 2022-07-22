@@ -38,3 +38,8 @@ This is how the cards should look like:
 
 
 3 - Add Pokémons to another list, and also allow the user to remove the pokémon from this list.
+
+========================================================
+
+#### Click here to start:
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ramonfragoso/create-react-app)
