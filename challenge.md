@@ -3,15 +3,15 @@
 ## My Pokémon List
 
 Objectives:
-- Display Pokémon Cards
-- Add Pokémon Cards to a list
-- Remove Pokémon Cards from a list
+- Let user type the name of the pokemon
+- Make an API request using the user input
+- Display Pokémon Card if info is found
 
 ========================================================
 
 ## INSTRUCTIONS
 
-1 - Create a pokémon search with data fetched from [PokeAPI](https://pokeapi.co/)
+1 - Create a pokémon search and display a Pokémon Card with data fetched from [PokeAPI](https://pokeapi.co/)
 
 This is how the data looks like:
 
@@ -19,6 +19,8 @@ This is how the data looks like:
 {
   "id":35
   "name":"pikachu",
+  "height": 50,
+  "weight": 30,
   "types": [
     {
       "slot": 1,
@@ -28,16 +30,23 @@ This is how the data looks like:
       }
     }
   ],
+  "sprites": {
+    front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+  }
 }
 ```
 endpoint: `https://pokeapi.co/api/v2/pokemon/{id or name}/`
 
-2 - Display the pokemon data on a list of cards.
+2 - Display the pokemon card with returned data.
 
-This is how the cards should look like:
+This is how the card should look like:
+
+![Pokémon Card]("https://github.com/ramonfragoso/create-react-app/edit/master/card.png")
+
+#### Example: 
 
 
-3 - Add Pokémons to another list, and also allow the user to remove the pokémon from this list.
+![Example]("https://github.com/ramonfragoso/create-react-app/edit/master/pokemoncard.gif")
 
 ========================================================
 
