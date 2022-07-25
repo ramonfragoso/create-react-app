@@ -41,12 +41,12 @@ endpoint: `https://pokeapi.co/api/v2/pokemon/{id or name}/`
 
 This is how the card should look like:
 
-![Pokémon Card]("https://github.com/ramonfragoso/create-react-app/edit/master/card.png")
+![Pokémon Card](https://raw.githubusercontent.com/ramonfragoso/create-react-app/master/card.png)
 
 #### Example: 
 
 
-![Example]("https://github.com/ramonfragoso/create-react-app/edit/master/pokemoncard.gif")
+![Example](https://raw.githubusercontent.com/ramonfragoso/create-react-app/master/pokemoncard.gif)
 
 ========================================================
 
